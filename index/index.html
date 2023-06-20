@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/layout.css">
+    <script src="https://kit.fontawesome.com/b22286fea9.js" crossorigin="anonymous"></script>
+    <title>Ruben Rodriguez</title>
+</head>
+<body>
+    <div class="nav-container">
+        <img src="" alt="">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#aboutme">Acerca de mí</a>
+                </li>
+                <li>
+                    <a href="#skills">Mis habilidades</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="row header" data-aos="fade-right"> 
+        <div class="portal col-4">
+            <div class="image1" data-aos="fade-up-right">
+                <img src="../img/foto sin fondo.png">
+            </div>
+        </div>
+        <div class="col-6 tittle" data-aos="fade-up-left">
+            <div>
+                <h1>Rubén <br>Rodriguez</h1>
+            </div>
+            <div class="text1">
+                <p>Full Stack Developer.</p>
+            </div>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/rubén-rodríguez-2a0090236/" target="_blank"> 
+                <div class="social">
+                    <i class="fa-brands fa-linkedin-in fa-1x"></i>
+                </div>
+                </a>
+                <a href="https://github.com/rubenrodriguezrur7" target="_blank">   
+                <div class="social">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                </a> 
+            </div>
+            <div class="cv">
+                <a href="" target="_blank">
+                <i class="fa-solid fa-file-lines"></i>
+                <p>Descargar C.V.</p>
+                </a>    
+            </div>
+        </div>
+    </section>
+    <section id="aboutme" class="aboutmy col-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <h2>Acerca de mí</h2>
+        <p>Desarrollador Full Stack con conocimientos en HTML, CSS y JavaScript. He encontrado una gran pasión por el desarrollo web y la implementación de aplicaciones que busquen soluciones a las diferentes necesidades.</p>
+    </section>
+    <section id="skills" class="skills col-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <h2>Mis habilidades</h2>
+        <div class="skills0">
+            <div class="fa-html skilltittle">
+                <h3>HTML 5</h3>
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="fa-css skilltittle">
+                <h3>CSS 3</h3>
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="fa-javascript skilltittle">
+                <h3>JavaScript</h3>
+                <i class="fa-brands fa-js-square"></i>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfoliotittle" data-aos="fade-up">
+        <h2>Portafolio</h2>
+        <div class="portfoliocontainer">
+            <div class="portfolioelement">
+                <img src="../img/pokeApp.png" alt="pockeapp">
+                <div class="infoproject">
+                    <h3><i class="fa-brands fa-react"></i> Poke App</h3>
+                    <hr>
+                    <p class="paragraph">Poke App permite interactuar con todos los Pokémon existentes. Esta página contiene una opción de búsqueda por nombre Pokémon con un campo de escritura. La App cuenta con un filtro que permite elegir entre los 20 tipos diferentes de Pokémon. Puedes también acceder a la información detallada de cada personaje.</b>.
+                    </p>
+                    <div class="portfoliobuttons">
+                        <div class="buttonstyle">
+                            <a href="https://github.com/rubenrodriguezrur7/pokeApp" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="buttonstyle">
+                            <a href="https://playful-tartufo-ce162c.netlify.app" target="_blank">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <p>Ir a Proyecto</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolioelement">
+                <img src="../img/Rick y Morty.png" alt="rick and morty">
+                <div class="infoproject">
+                    <h3><i class="fa-brands fa-react"></i> Rick and Morty</h3>
+                    <hr>
+                    <p class="paragraph">Permite explorar los diferentes universos de la serie. Es una página que consume la API de Rick and Morty. La idea es poder ver las 126 dimensiones por las cuales viajan estos dos personajes.</p>
+                    <div class="portfoliobuttons">
+                        <div class="buttonstyle">
+                            <a href="https://github.com/rubenrodriguezrur7/RickMortyApp" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="buttonstyle">
+                            <a href="https://unrivaled-kashata-e50c5f.netlify.app/" target="_blank">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <p>Ir a Proyecto</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="portfolioelement">
+                <img src="" alt="weather app">
+                <div class="infoproject">
+                    <h3><i class="fa-brands fa-react"></i> Weather App</h3>
+                    <hr>
+                    <p class="paragraph">Weather App está conectada a una API que detecta automáticamente nuestra ubicación. Esta App ofrece información alterna entre grados F° o C°.</p>
+                    <div class="portfoliobuttons">
+                        <div class="buttonstyle">
+                            <a href="" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="buttonstyle">
+                            <a href="/" target="_blank">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <p>Ir a Proyecto</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="portfolioelement">
+                <img src="../img/UsersApp.png" alt="CRUD user">
+                <div class="infoproject">
+                    <h3><i class="fa-brands fa-react"></i> Users CRUD</h3>
+                    <hr>
+                    <p class="paragraph">Users CRUD es un <b>CRUD. </b>Es posible crear, actualizar y eliminar cualquier usuario de la lista.</p>
+                    <div class="portfoliobuttons">
+                        <div class="buttonstyle">
+                            <a href="https://github.com/rubenrodriguezrur7/UsersApp" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                <p>GitHub</p>
+                            </a>
+                        </div>
+                        <div class="buttonstyle">
+                            <a href="https://lovely-piroshki-066f10.netlify.app/" target="_blank">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <p>Ir a Proyecto</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <h2>Contacto</h2>
+        <div class="bg-contact">
+            <div>
+                <div class="bg-contacticons">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="bg-text">
+                    <p>Teléfono</p>
+                    <h5>+57 3117190056</h5>
+                </div>
+            </div>
+            <div>
+                <div class="bg-contacticons">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="bg-text">
+                    <p>Email</p>
+                    <h5>ruben.rodriguez.rur7@gmail.com</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+        });
+    </script>
+</body>
+</html>
+
+
+
+
