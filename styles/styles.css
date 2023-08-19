@@ -143,6 +143,7 @@ img {
 }
 .skills0 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     margin-top: 20px;
@@ -176,6 +177,14 @@ img {
 .fa-javascript i{
     font-size: 130px;
     color: rgb(255, 174, 0);
+}
+.fa-react_ i{
+    font-size: 130px;
+    color: rgb(20, 158, 202);
+}
+.fa-node_ i{
+    font-size: 130px;
+    color: rgb(62, 134, 61);
 }
 .skilltittle i:hover {
     transform: translateY(-13px);
